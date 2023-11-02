@@ -8,7 +8,7 @@ set shiftwidth=4           " Number of spaces to use for autoindent.
 set wildmenu                    " Enable enhanced tab autocomplete.
 set backspace=2            " Fix backspace behavior on most terminals.
 
-set relativenumber              " Display relative column numbers.
+set number relativenumber              " Display relative column numbers.
 set tags=tags;
 
 
@@ -25,6 +25,9 @@ Plug 'Pocco81/Catppuccino.nvim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'                 " Git show changes
+Plug 'tpope/vim-rhubarb'
+Plug 'Xuyuanp/nerdtree-git-plugin'            " Git status
 " Status bar
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
